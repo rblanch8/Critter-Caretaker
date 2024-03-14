@@ -7,7 +7,7 @@ class Orco: public Critter
 {
 public:
 	int m_DamageMultiplier;
-	Orco();
+	//Orco();
 	void SpecialAttack() const;
 	int m_Damage;
 
