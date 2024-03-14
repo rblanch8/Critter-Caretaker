@@ -1,8 +1,9 @@
 #pragma once
 #include <iostream>
+#include "Critter.h"
 using namespace std;
 
-class Orco
+class Orco: public Critter
 {
 public:
 	int m_DamageMultiplier;
