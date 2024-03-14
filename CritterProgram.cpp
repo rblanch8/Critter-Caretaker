@@ -1,7 +1,9 @@
 #include <iostream>
-#include "Critter.h"
-#include "Critter.cpp"
+//#include "Critter.h"
+//#include "Critter.cpp" <- ERROR
 #include "Granja.h"
+// Si fa falta 
+//#include "Orco.h
 
 
 using namespace std;
