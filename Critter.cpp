@@ -53,6 +53,13 @@ void Critter::PassTime(int time)
 	}
 }
 
+ostream& operator>>(ostream& os, Critter& aCritter)
+{
+	os << "Critter Object-";
+	os << "m_Name:" << aCritter.m_Name;
+	return os;
+}
+
 void Peek(const Critter& aCritter)
 {
 	cout << aCritter.m_Name << endl;

@@ -12,13 +12,12 @@ void Sport(int fun = 4);
 void Study(int fun = 4);
 friend void Peek(const Critter& aCritter);
 friend ostream& operator <<(ostream& os, const Critter& aCritter);
+string m_Name;
 
 private:
 int m_Hunger;
 int m_Boredom;
 int GetMood() const;
-string m_Name;
 void PassTime(int time = 1);
 void Peek(const Critter& aCritter);
-ostream& operator << (ostream& os, const Critter& aCritter);
 };
