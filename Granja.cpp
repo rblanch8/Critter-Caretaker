@@ -1,5 +1,5 @@
 #include "Granja.h"
-#include "Critter.h"
+//#include "Critter.h"
 #include <iostream>
 
 using namespace std;
